@@ -16,6 +16,10 @@ curl -sL https://deb.nodesource.com/setup | bash -
 
 # for tests and build
 apt-get -y install nodejs
+
+# install npm, used later for npm install
+apt-get -y install npm
+
 # for phantomjs
 apt-get -y install libfontconfig1 fontconfig libfontconfig1-dev libfreetype6-dev
 
